@@ -1,21 +1,37 @@
+.u-list-inline li {
+  display: inline-block;
+  font-family: "Archivo Black", sans-serif;
+}
+.u-list-reset {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 body {
   text-align: left;
   font-family: "Open Sans", sans-serif;
+  font-size: 17px;
   margin: 0 30px;
 }
 
 button {
   border-radius: 5px;
-  background-color: #db4d9e;
-  color: white;
+  background-color: #ff759c;
+  color: #1d3875;
   padding: 7px 25px;
   font-size: 20px;
+ 
 }
 h1 {
   font-family: "Archivo Black", sans-serif;
   color: white;
+  font-size: 40px;
 }
 h2 {
+  font-size: 35px;
+  color:
 }
 header {
   background-color: #1d3875;
@@ -27,7 +43,8 @@ nav {
   margin: 0;
   display: inline-block;
   position: relative;
-    text-align: center;
+  text-align: center;
+  
 }
 
 form {
@@ -55,21 +72,12 @@ ul {
   margin: 0;
 }
 
-.u-list-inline li {
-  display: inline-block;
-  font-family: "Archivo Black", sans-serif;
-}
-.u-list-reset {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
 .button-styled {
   border: none;
   width: 50px;
   height: 50px;
   padding: 0;
+  
 }
 
 
