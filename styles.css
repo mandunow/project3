@@ -24,6 +24,10 @@ header {
   margin: 0 -30px;
 }
 nav {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+    text-align: center;
 }
 
 form {
@@ -54,6 +58,12 @@ ul {
 .u-list-inline li {
   display: inline-block;
   font-family: "Archivo Black", sans-serif;
+}
+.u-list-reset {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .button-styled {
   border: none;
