@@ -56,13 +56,10 @@ ul {
   font-family: "Archivo Black", sans-serif;
 }
 .button-styled {
-  background-image: url(https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmenu-24px.svg?v=1608022911472);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
   border: none;
-  width: 40px;
+  width: 50px;
   height: 40px;
+  padding: 0;
 }
 @media (max-width: 500px) {
   .site-nav > button:not([aria-expanded]) {
