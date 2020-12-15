@@ -17,11 +17,14 @@ body {
 }
 
 button {
+  border: none;
   border-radius: 5px;
   background-color: #ff759c;
   color: #1d3875;
   padding: 7px 25px;
   font-size: 20px;
+  margin: 10px 0;
+  position: relative;
  
 }
 h1 {
@@ -43,10 +46,14 @@ nav {
   margin: 0;
   display: inline-block;
   position: relative;
-  text-align: center;
-  
 }
-
+nav a {
+  color: white;
+  border-radius: 3px;
+  display: block;
+  padding: 16px 20px;
+  text-align: center;
+}
 form {
   margin: auto;
   width: 400px;
@@ -73,10 +80,12 @@ ul {
 }
 
 .button-styled {
-  border: none;
+  
   width: 50px;
   height: 50px;
   padding: 0;
+  margin: 0;
+  color: white;
   
 }
 
