@@ -8,33 +8,36 @@ button {
   border-radius: 5px;
   background-color: #db4d9e;
   color: white;
-  
+  padding: 7px 25px;
+  font-size: 20px;
 }
 h1 {
   font-family: "Archivo Black", sans-serif;
   color: white;
 }
 h2 {
-  
 }
 header {
   background-color: #1d3875;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 18px;
-  margin: 0;
+  margin: 0 -30px;
 }
 nav {
 }
 
 form {
-  margin: 10px;
-  width: 500px;
+  margin: auto;
+  width: 400px;
   /* Form outline */
-  padding: 15px;
+  padding:15px;
   border: 1px solid;
   border-radius: 15px;
 }
 
+footer {
+  padding: 20px 0;
+}
 img {
   width: 350px;
   max-height: 400px;
@@ -56,16 +59,16 @@ ul {
   background-image: url(https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmenu-24px.svg?v=1608022911472);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-background-size: cover;
+  background-size: cover;
   border: none;
- width: 40px;
-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 @media (max-width: 500px) {
-.site-nav > button:not([aria-expanded]) {
+  .site-nav > button:not([aria-expanded]) {
     display: none;
-}
-    .site-nav > button[aria-expanded=false] + ul {
+  }
+  .site-nav > button[aria-expanded="false"] + ul {
     display: none;
   }
 }
