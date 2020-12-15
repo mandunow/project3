@@ -33,9 +33,19 @@ ul {
   display: inline-block;
   font-family: "Archivo Black", sans-serif;
 }
-
+.button-styled {
+  background-image: url(https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmenu-24px.svg?v=1608022911472);
+  border: none;
+ width: 40px;
+height: 40px;
+}
 @media (max-width: 500px) {
-
+.site-nav > button:not([aria-expanded]) {
+    display: none;
+}
+    .site-nav > button[aria-expanded=false] + ul {
+    display: none;
+  }
 }
 
 @media (min-width: 501px) {
