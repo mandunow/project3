@@ -2,7 +2,9 @@ body {
   text-align: left;
   font-family: ;
 }
-
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
 form {
   /* Center the form on the page */
   margin: 10px;
