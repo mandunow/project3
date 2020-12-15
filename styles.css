@@ -9,9 +9,12 @@ h1 {
 header {
   background-color: #1d3875;
   padding: 20px;
+  margin-bottom: 18px;
+}
+nav {
+  
 }
 form {
-  /* Center the form on the page */
   margin: 10px;
   width: 500px;
   /* Form outline */
@@ -26,5 +29,5 @@ ul {
   margin: 0;
 }
 
-@media (min-width: 520px) {
+@media (min-width: 500px) {
 }
