@@ -1,9 +1,9 @@
 body {
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 h1 {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   color: white;
 }
 header {
@@ -12,7 +12,6 @@ header {
   margin-bottom: 18px;
 }
 nav {
-
 }
 
 form {
@@ -30,9 +29,22 @@ ul {
   margin: 0;
 }
 
-.u-list-inline li{
+.u-list-inline li {
   display: inline-block;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
-@media (min-width: 500px) {
+
+@media (max-width: 500px) {
+  .site-nav > button:not([aria-expanded]) {
+    display: none;
+  }
+  .site-nav > button[aria-expanded=false] + ul {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .site-nav > button {
+    display: none;
+  }
 }
