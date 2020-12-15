@@ -4,6 +4,10 @@ body {
 }
 h1 {
   font-family: 'Archivo Black', sans-serif;
+  color: white;
+}
+header {
+  background-color: #32376b;
 }
 form {
   /* Center the form on the page */
