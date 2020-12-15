@@ -2,9 +2,16 @@ body {
   text-align: left;
   font-family: "Open Sans", sans-serif;
 }
+
+button {
+  
+}
 h1 {
   font-family: "Archivo Black", sans-serif;
   color: white;
+}
+h2 {
+  
 }
 header {
   background-color: #1d3875;
@@ -23,6 +30,11 @@ form {
   border-radius: 15px;
 }
 
+img {
+  width: 400px;
+  height: auto;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -35,6 +47,9 @@ ul {
 }
 .button-styled {
   background-image: url(https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmenu-24px.svg?v=1608022911472);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+background-size: cover;
   border: none;
  width: 40px;
 height: 40px;
