@@ -12,8 +12,9 @@ header {
   margin-bottom: 18px;
 }
 nav {
-  
+
 }
+
 form {
   margin: 10px;
   width: 500px;
@@ -29,5 +30,8 @@ ul {
   margin: 0;
 }
 
+.u-list-inline li{
+  display: inline-block;
+}
 @media (min-width: 500px) {
 }
