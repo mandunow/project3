@@ -1,9 +1,13 @@
 body {
   text-align: left;
   font-family: "Open Sans", sans-serif;
+  margin: 0 30px;
 }
 
 button {
+  border-radius: 5px;
+  background-color: #db4d9e;
+  color: white;
   
 }
 h1 {
@@ -17,6 +21,7 @@ header {
   background-color: #1d3875;
   padding: 20px;
   margin-bottom: 18px;
+  margin: 0;
 }
 nav {
 }
@@ -31,8 +36,10 @@ form {
 }
 
 img {
-  width: 400px;
-  height: auto;
+  width: 350px;
+  max-height: 400px;
+  object-fit: cover;
+  position: relative;
 }
 
 ul {
