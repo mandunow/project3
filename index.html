@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Project3 Conference Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Type and Letters 2021
+      </h1>
+      <nav class="site-nav js-toggle-menu">
+        <button
+          type="button"
+          class="button-styled menu-trigger js-toggle-trigger"
+          aria-controls="site-menu"
+        >
+          <i class="material-icons md-48">menu</i>
+        </button>
+        <ul id="site-menu" class="u-list-inline u-list-reset menu-list">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Schedule">Schedule</a></li>
+          <li><a href="#Talks">Talks</a></li>
+          <li><a href="#Speakers">Speakers</a></li>
+          <li><a href="#Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="About">
+        <p>
+          This is a conference for every designers who uses types and
+          letterings. This year's conference will be hosted online on February
+          28, 2021.
+        </p>
+      </section>
+      <section id="Schedule">
+        <h2>
+          Schedule
+        </h2>
+        <p>
+          Conference will be on
+          <strong>Feb.28, 2021 9:00 A.M.- 7:00 P.M.</strong>
+        </p>
+        <p class="important-text">
+          <em>9:00 A.M.-</em> Introduction<br />
+          <em>10:30 A.M.-</em> Hand Lettering Workshop<br />
+          <em>1:00 P.M.-</em> Typeface as a Design Tool<br />
+          <em>2:30 P.M.-</em> Visual Typography<br />
+          <em>10:00 A.M.~ 7:00 P.M.-</em> Typographic/Lettering Design Fair<br />
+        </p>
+      </section>
+      <section id="Talks">
+        <h2>
+          Talks
+        </h2>
+        <h3>
+          Hand Lettering Workshop
+        </h3>
+        <p>
+          Speaker: Mary Kate McDevitt<br />
+          This workshop opportunity will provide basic knowledges or letterings
+          and allow artists to explore their creativity.
+        </p>
+        <h3>
+          Typeface as a Design Tool
+        </h3>
+        <p>
+          Speaker: Carol Twombly Twombly<br />
+          She will share her own experience of designing typefaces and how she
+          utilizes type as her design tool.
+        </p>
+        <h3>
+          Visual Typography
+        </h3>
+        <p>
+          Speaker: Marian Bantjes Bantjes<br />
+          She will talk about typographic design choices and their visual
+          relationship with contents.
+        </p>
+      </section>
+      <section id="Speakers">
+        <h2>
+          Speakers
+        </h2>
+        <h3>Carol Twombly</h3>
+        <img
+          src="https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fcarol%20twombly.png?v=1608030276977" alt="Carol Twombly picture"
+        />
+        <p>
+          During her eleven+ years with Adobe, Carol has designed a number of
+          very popular text and display typefaces. Designs like Trajan,
+          Charlemagne, Lithos, and Adobe Caslon are inspired by classic
+          letterforms of the past - from early Greek inscriptions, circa 400
+          B.C., to William Caslon’s typefaces of the 1700s. Designs like Viva
+          and Nueva explore new territory while maintaining traditional roots.
+          In 1994, she received the Charles Peignot award from the Association
+          Typographique Internationale for outstanding contributions to type
+          design. She was the first woman and only the second American to
+          receive this prestigious honor.
+        </p>
+        <h3>Mary Kate McDevitt</h3>
+        <img
+          src="https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmary%20kate%20mcdevitt.jpg?v=1608030309268" alt="Mary Kate Mcdevitt picture"
+        />
+        <p>
+          A letterer and illustrator, McDevitt lives and works in Brooklyn, New
+          York. Some of her prominent clients include AT&T, Penguin Books, Nike,
+          United States Postal Service, Sesame Street, and Target. She also
+          worked with Chronicle Books, Nintendo, and Wall Street Journal, as
+          well as Smart Ones, Fast Company and O Magazine. McDevitt had a degree
+          in Graphic Design and Illustration from Tyler School of Art in
+          Philadelphia.
+        </p>
+        <h3>Marian Bantjes</h3>
+        <img
+          src="https://cdn.glitch.com/45cf91dd-1c76-4720-9ed6-0b9ec5556704%2Fmarian%20bantjes.jpg?v=1608030384123" alt="Marian Bantjes"
+        />
+        <p>
+          Having worked as a book typesetter and founding the Digitopolis
+          graphic design studio, Canadian designer Marian Bantjes currently
+          works on her own projects in design, art, and typography. Her
+          ornamental, often dreamlike style has been featured in over 100 books,
+          including her own beautiful I Wonder in 2010 (with a foreword by
+          Stefan Sagmeister of the aforementioned Sagmeister & Walsh). Bantjes
+          continues to bring new and unusual letterforms into the design
+          vocabulary.
+        </p>
+      </section>
+      <section id="Register">
+        <h2>
+          Register
+        </h2>
+        <p class="important-text">
+          <em>$3.00</em> -Conference entering fee<br />
+          <em>$5.00</em> -Selling Booth registration fee<br />
+          click the button for the conference registration!<br />
+        </p>
+        <button>
+          Register
+        </button>
+      </section>
+    </main>
+    <footer>
+      <em>©2020 Typeandletters.</em>
+      <form action="#" method="post">
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="phone">number:</label>
+            <input type="msg" name="user_message" />
+          </li>
+          <li class="button">
+            <button type="submit">Subscribe</button>
+          </li>
+        </ul>
+      </form>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>
