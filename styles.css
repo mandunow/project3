@@ -33,7 +33,7 @@ button {
   border: none;
   border-radius: 15px;
   background-color: var(--color-pink);
-  color: white;
+  color: #1d3875;
   padding: 17px 45px;
   font-size: 20px;
   font-weight:800;
@@ -48,13 +48,14 @@ h2 {
   font-family: "Archivo Black", sans-serif;
   color: var(--color-blue);
   font-size: 40px;
-  line-height: 100px;
+  line-height: 120px;
   text-align: center;
 }
 h3 {
   font-size: 35px;
   color: #427ec7;
   font-weight: 600;
+  line-height: 30px;
 }
 header {
   background-color: var(--color-blue);
@@ -107,11 +108,12 @@ ul {
 }
 
 .button-styled {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   padding: 0;
   margin: 0;
   color: white;
+
 }
 .important-text {
   font-weight: 600;
@@ -131,6 +133,8 @@ nav a:hover {
 
 button:hover {
   background-color: #852c55;
+  color: var(--color-highlight);
+  transition: var(--transition-default);
   
 }
 /* media inquiries */
