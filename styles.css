@@ -1,9 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 /* variables*/
 :root {
   --color-blue: #1d3875;
+    --color-box: hsl(223, 54%, 97%);
+   --color-highlight: #c2acfa;
   --color-pink: #ff759c;
-  --color-highlight: #c2acfa;
-  --color-box: hsl(223, 54%, 97%);
 
   --transition-default: all 200ms ease;
 }
@@ -50,6 +53,7 @@ h2 {
   font-size: 40px;
   line-height: 120px;
   text-align: center;
+  text-transform: uppercase;
 }
 h3 {
   font-size: 35px;
