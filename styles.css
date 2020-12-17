@@ -104,6 +104,11 @@ ul {
 }
 
 @media (min-width: 501px) {
+ 
+ header {
+    text-align: center;
+  }
+  
   .site-nav > button {
     display: none;
   }
