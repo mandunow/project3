@@ -5,7 +5,7 @@
   --color-highlight: #c2acfa;
   --color-box: hsl(223, 54%, 97%);
 
-  --transition-default: all 300ms ease-in-out;
+  --transition-default: all 200ms ease;
 }
 
 /* UTILITY STYLES*/
@@ -134,7 +134,8 @@ ul {
   }
 
   .menu-list {
-  animation: slideIn 420ms ease 1;
+  animation: slide 0.5s forwards;
+     animation-delay: 2s;
     background-color: #122252;
     padding-top: 20px;
     display: block;
@@ -164,7 +165,7 @@ ul {
     display: inline-block;
     color: white;
     border-radius: 3px;
-    background-color: #122252;
+    background-color: var(--color-blue);
     display: block;
     padding: 8px 25px;
     text-align: center;
@@ -178,12 +179,7 @@ ul {
 }
 
 /* animation */
-@keyframes slideIn {
-  from {
-    transform: scaleY(0);
-  }
 
-  to {
-    transform: scaleY(1);
-  }
+@keyframes slide {
+    100% { left: 0; }
 }
