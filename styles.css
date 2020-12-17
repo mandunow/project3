@@ -59,13 +59,11 @@ main {
 nav {
   margin: 0;
   display: block;
-  position: relative;
-    text-align: center;
+  text-align: center;
 }
 
-}
 form {
-  background-color:var(--color-box);
+  background-color: var(--color-box);
   margin: auto;
   width: 400px;
   padding: 15px;
@@ -74,7 +72,8 @@ form {
 }
 
 form li {
-  margin-top: 1em;}
+  margin-top: 1em;
+}
 
 label {
   display: inline-block;
@@ -84,10 +83,9 @@ label {
 
 footer {
   padding: 20px 0;
-}
-footer em {
   color: white;
 }
+
 img {
   width: 350px;
   max-height: 400px;
@@ -117,55 +115,63 @@ ul {
   color: var(--color-pink);
 }
 
-
 /* animation...transition... */
-
 
 /* media inquiries */
 
 @media (max-width: 550px) {
-    
   .site-nav > button:not([aria-expanded]) {
     display: none;
   }
   .site-nav > button[aria-expanded="false"] + ul {
     display: none;
   }
-    .site-nav {
+  .site-nav {
     position: absolute;
     top: 150px;
     right: 0;
     text-align: right;
-    z-index: 1;}
-  
-  .site-menu {
-    animation: slideIn 420ms cubic-bezier(.68, -0.55, .27, 1.55) 1;
-    background-color: var(--color-blue);
-    padding-top: 120px;
-    position: absolute;
-    top: calc(var(--spacing-md) * -1);
-    right: calc(var(--spacing-md) * -1);
+    z-index: 1;
+  }
+
+  .menu-list {
+    background-color: #122252;
+    padding-top: 20px;
+    display: block;
+    top: 13px * -1;
+    right: 20px * -1;
     transform-origin: top;
-    width: 65vw;
-   z-index: -1;}
+    width: 250px;
+    z-index: -1;
+  }
+
+  .menu-list a {
+    color: white;
+    display: block;
+    font-size: 1.3em;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: var(--transition-default);
+  }
 }
-
-
 
 @media (min-width: 551px) {
   header {
     text-align: center;
   }
-nav a {
-  display: inline-block;
-  color: white;
-  border-radius: 3px;
-  background-color: #122252;
-  display: block;
-  padding: 8px 25px;
-  text-align: center;
-  margin: 10px 15px;}
-  
+  nav a {
+    display: inline-block;
+    color: white;
+    border-radius: 3px;
+    background-color: #122252;
+    display: block;
+    padding: 8px 25px;
+    text-align: center;
+    margin: 10px 15px;
+    position: relative;
+  }
+
   .site-nav > button {
     display: none;
   }
