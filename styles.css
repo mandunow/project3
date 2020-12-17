@@ -42,6 +42,7 @@ h1 {
   font-family: "Archivo Black", sans-serif;
   color: white;
   font-size: 40px;
+  line-height: 60px;
 }
 h2 {
   font-size: 35px;
@@ -63,11 +64,11 @@ nav {
 }
 
 form {
-  background-color: var(--color-box);
+
   margin: auto;
   width: 400px;
   padding: 15px;
-  border: 1px solid;
+  border: none;
   border-radius: 15px;
 }
 
@@ -128,13 +129,14 @@ ul {
   }
   .site-nav {
     position: absolute;
-    top: 150px;
+    top: 0;
     right: 0;
     text-align: right;
     z-index: 1;
   }
 
   .menu-list {
+  
     background-color: #122252;
     padding-top: 20px;
     display: block;
