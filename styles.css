@@ -4,8 +4,8 @@
 /* variables*/
 :root {
   --color-blue: #1d3875;
-    --color-box: hsl(223, 54%, 97%);
-   --color-highlight: #c2acfa;
+  --color-box: hsl(223, 54%, 97%);
+  --color-highlight: #c2acfa;
   --color-pink: #ff759c;
 
   --transition-default: all 200ms ease;
@@ -18,32 +18,32 @@
 }
 .u-list-reset {
   list-style: none;
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
   padding-left: 0;
 }
 
 body {
   background-color: #11182b;
   color: #403f3f;
-  text-align: left;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 0 30px;
+  text-align: left;
 }
 
 button {
+  background-color: var(--color-pink);
   border: none;
   border-radius: 15px;
-  background-color: var(--color-pink);
   color: #1d3875;
-  padding: 17px 45px;
+  font-weight: 800;
   font-size: 20px;
-  font-weight:800;
+  padding: 17px 45px;
 }
 h1 {
-  font-family: "Archivo Black", sans-serif;
   color: white;
+  font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   line-height: 60px;
 }
@@ -56,25 +56,24 @@ h2 {
   text-transform: uppercase;
 }
 h3 {
-  font-size: 35px;
   color: #427ec7;
+  font-size: 35px;
   font-weight: 600;
   line-height: 30px;
 }
 header {
   background-color: var(--color-blue);
-  padding: 30px;
   margin: 0 -30px;
+  padding: 30px;
 }
 main {
   background-color: var(--color-box);
   padding: 24px;
 }
 nav {
-  margin: 0;
   display: block;
+  margin: 0;
   text-align: right;
-  
 }
 
 form li {
@@ -83,48 +82,47 @@ form li {
 }
 
 form button {
-    margin-left: 105px;
-  padding: 9px 23px;
   border-radius: 10px;
+  margin-left: 105px;
+  padding: 9px 23px;
 }
 
 label {
   display: inline-block;
-  width: 100px;
   text-align: right;
+  width: 100px;
 }
 
 footer {
-  padding: 20px 0;
   color: white;
+  padding: 20px 0;
 }
 
 img {
-  width: 350px;
   max-height: 400px;
   object-fit: cover;
   position: relative;
+  width: 350px;
 }
 
 ul {
+  font-size: 25px;
   list-style: none;
-  padding: 0;
   margin: 0;
-   font-size: 25px;
-  
+  padding: 0;
 }
 
 .button-styled {
-  width: 60px;
-  height: 60px;
-  padding: 0;
-  margin: 0;
   color: white;
-
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  width: 60px;
 }
+
 .important-text {
-  font-weight: 600;
   font-size: 25px;
+  font-weight: 600;
   line-height: 40px;
 }
 .important-text em {
@@ -142,7 +140,6 @@ button:hover {
   background-color: #852c55;
   color: var(--color-highlight);
   transition: var(--transition-default);
-  
 }
 /* media inquiries */
 
@@ -164,10 +161,10 @@ button:hover {
   .menu-list {
     animation: slideIn 0.5s forwards;
     background-color: #122252;
-    padding-top: 20px;
     display: block;
-    top: 13px * -1;
+    padding-top: 20px;
     right: 20px * -1;
+    top: 13px * -1;
     transform-origin: top;
     width: 250px;
     z-index: -1;
@@ -176,31 +173,28 @@ button:hover {
   .menu-list a {
     color: white;
     display: block;
-     text-decoration: none;
     margin: 15px 0;
     padding: 12px 24px;
     text-align: center;
+    text-decoration: none;
     transition: var(--transition-default);
   }
 }
 
 @media (min-width: 551px) {
-  header {
-    text-align: center;
-  }
+  header,
   nav {
     text-align: center;
   }
   nav a {
-    display: inline-block;
-    color: white;
-    border-radius: 3px;
     background-color: var(--color-blue);
-    display: block;
-    padding: 8px 25px;
-    text-align: center;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
     margin: 10px 15px;
+    padding: 8px 25px;
     position: relative;
+    text-align: center;
   }
   main {
     padding: 100px;
