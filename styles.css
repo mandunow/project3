@@ -3,6 +3,7 @@
   --color-blue: #1d3875;
   --color-pink: #ff759c;
   --color-highlight: #c2acfa;
+  --color-box: hsl(223, 54%, 97%);
 
   --transition-default: all 300ms ease-in-out;
 }
@@ -36,7 +37,6 @@ button {
   padding: 7px 25px;
   font-size: 20px;
   margin: 10px 0;
-  position: relative;
 }
 h1 {
   font-family: "Archivo Black", sans-serif;
@@ -54,7 +54,7 @@ header {
   margin: 0 -30px;
 }
 main {
-  background-color: hsl(223, 54%, 97%);
+  background-color: var(c)
   padding: 24px;
 }
 nav {
@@ -70,11 +70,21 @@ nav a {
   text-align: center;
 }
 form {
+  color:
   margin: auto;
   width: 400px;
   padding: 15px;
   border: 1px solid;
   border-radius: 15px;
+}
+
+form li {
+  margin-top: 1em;}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
 }
 
 footer {
@@ -123,6 +133,12 @@ ul {
   .site-nav > button[aria-expanded="false"] + ul {
     display: none;
   }
+    .site-nav {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    text-align: right;
+    z-index: 1}
 }
 
 @media (min-width: 501px) {
