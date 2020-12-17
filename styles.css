@@ -40,11 +40,17 @@ button {
 h1 {
   font-family: "Archivo Black", sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 60px;
 }
 h2 {
-  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  font-size: 40px;
+  line-height: 60px;
+}
+h3 {
+  font-size: 28px;
   color: var(--color-blue);
 }
 header {
@@ -62,20 +68,18 @@ nav {
   text-align: right;
 }
 
-form {
- 
-  width: 400px;
-  border: none;
-  border-radius: 15px;
-}
-
 form li {
   margin-top: 1em;
+  padding: 3px;
+}
+
+form button {
+    margin-left: 105px;
 }
 
 label {
   display: inline-block;
-  width: 90px;
+  width: 100px;
   text-align: right;
 }
 
@@ -107,7 +111,7 @@ ul {
 .important-text {
   font-weight: 800;
   font-size: 25px;
-  line-height: 50px;
+  line-height: 40px;
 }
 .important-text em {
   color: var(--color-pink);
