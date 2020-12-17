@@ -25,17 +25,18 @@ body {
   color: #403f3f;
   text-align: left;
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   margin: 0 30px;
 }
 
 button {
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: var(--color-pink);
-  color: #1d3875;
-  padding: 7px 25px;
+  color: white;
+  padding: 17px 45px;
   font-size: 20px;
+  font-weight:800;
 }
 h1 {
   font-family: "Archivo Black", sans-serif;
@@ -45,13 +46,15 @@ h1 {
 }
 h2 {
   font-family: "Archivo Black", sans-serif;
-  color: white;
+  color: var(--color-blue);
   font-size: 40px;
-  line-height: 60px;
+  line-height: 100px;
+  text-align: center;
 }
 h3 {
-  font-size: 28px;
-  color: var(--color-blue);
+  font-size: 35px;
+  color: #427ec7;
+  font-weight: 600;
 }
 header {
   background-color: var(--color-blue);
@@ -75,6 +78,8 @@ form li {
 
 form button {
     margin-left: 105px;
+  padding: 9px 23px;
+  border-radius: 10px;
 }
 
 label {
@@ -109,18 +114,24 @@ ul {
   color: white;
 }
 .important-text {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 25px;
   line-height: 40px;
 }
 .important-text em {
   color: var(--color-pink);
+  font-weight: 800;
 }
 /* hover styles*/
 nav a:hover {
   background-color: #122252;
   color: var(--color-highlight);
   transition: var(--transition-default);
+}
+
+button:hover {
+  background-color: #852c55;
+  
 }
 /* media inquiries */
 
