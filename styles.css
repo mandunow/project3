@@ -107,16 +107,14 @@ ul {
   margin: 0;
   color: white;
 }
-.schedule-times {
+.important-text {
   font-weight: 800;
   font-size: 25px;
   line-height: 50px;
 }
-.schedule-times em {
+.important-text em {
   color: var(--color-pink);
 }
-
-/* animation...transition... */
 
 /* media inquiries */
 
@@ -136,7 +134,7 @@ ul {
   }
 
   .menu-list {
-  
+  animation: slideIn 420ms ease 1;
     background-color: #122252;
     padding-top: 20px;
     display: block;
@@ -176,5 +174,16 @@ ul {
 
   .site-nav > button {
     display: none;
+  }
+}
+
+/* animation */
+@keyframes slideIn {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
   }
 }
