@@ -64,7 +64,6 @@ nav {
 }
 
 form {
-
   margin: auto;
   width: 400px;
   padding: 15px;
@@ -115,7 +114,12 @@ ul {
 .important-text em {
   color: var(--color-pink);
 }
-
+/* hover styles*/
+nav a:hover {
+  background-color: #122252;
+  color: var(--color-highlight);
+  transition: var(--transition-default);
+}
 /* media inquiries */
 
 @media (max-width: 550px) {
@@ -134,8 +138,7 @@ ul {
   }
 
   .menu-list {
-  animation: slide 0.5s forwards;
-     animation-delay: 2s;
+    animation: slideIn 0.5s forwards;
     background-color: #122252;
     padding-top: 20px;
     display: block;
@@ -144,12 +147,14 @@ ul {
     transform-origin: top;
     width: 250px;
     z-index: -1;
+ 
   }
 
   .menu-list a {
     color: white;
     display: block;
     font-size: 1.3em;
+       margin: 15px 0;
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
@@ -180,6 +185,13 @@ ul {
 
 /* animation */
 
-@keyframes slide {
-    100% { left: 0; }
-}
+@keyframes slideIn {
+   from {
+    margin-left: 160%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 60%;
+    width: 40%;
+  }
