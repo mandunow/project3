@@ -21,7 +21,7 @@
 }
 
 body {
-  background-color: #ffcaa8;
+  background-color: #11182b;
   color: #403f3f;
   text-align: left;
   font-family: "Open Sans", sans-serif;
@@ -50,11 +50,10 @@ h2 {
 header {
   background-color: var(--color-blue);
   padding: 30px;
-  margin-bottom: 18px;
   margin: 0 -30px;
 }
 main {
-  background-color: var(c)
+  background-color: var(--color-box);
   padding: 24px;
 }
 nav {
@@ -70,7 +69,7 @@ nav a {
   text-align: center;
 }
 form {
-  color:
+  background-color:var(--color-box);
   margin: auto;
   width: 400px;
   padding: 15px;
@@ -89,6 +88,9 @@ label {
 
 footer {
   padding: 20px 0;
+}
+footer em {
+  color: white;
 }
 img {
   width: 350px;
@@ -125,7 +127,7 @@ ul {
 
 /* media inquiries */
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     
   .site-nav > button:not([aria-expanded]) {
     display: none;
@@ -135,13 +137,13 @@ ul {
   }
     .site-nav {
     position: absolute;
-    top: 140px;
+    top: 150px;
     right: 0;
     text-align: right;
-    z-index: 1}
+    z-index: 1;}
 }
 
-@media (min-width: 501px) {
+@media (min-width: 551px) {
   header {
     text-align: center;
   }
