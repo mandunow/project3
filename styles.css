@@ -109,12 +109,14 @@ ul {
   color: var(--color-pink);
 }
 
+
 /* animation...transition... */
 
 
 /* media inquiries */
 
 @media (max-width: 500px) {
+    
   .site-nav > button:not([aria-expanded]) {
     display: none;
   }
